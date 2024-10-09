@@ -1,5 +1,9 @@
-[server1]
-192.168.56.105
+[web_servers]
+192.168.56.111
+192.168.56.109
 
-[server2]
-192.168.56.107
+[db_servers]
+192.168.56.116 ansible_user=ralcoseba
+
+[file_servers]
+192.168.56.114
